@@ -10,3 +10,8 @@ gradPosAluno.setNome('Andrew Jr')
 gradPosAluno.setMatricula('12345')
 gradPosAluno.setOrientador('Fábio Bezerra')
 print(gradPosAluno)
+
+test = alunoDeGraduacao(nome='', matricula='')
+test.setNome('Teste da Silva')
+test.setMatricula('testando 123...')
+print(test)
